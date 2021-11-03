@@ -1,0 +1,7 @@
+MDAnalysis
+jax==0.2.17
+jaxlib==0.1.68
+jax-md==0.1.13
+optax==0.0.9
+dm-haiku==0.0.4
+sympy==1.8
