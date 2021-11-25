@@ -1,8 +1,8 @@
 # Differentiable Trajectory Reweighting
 
 Reference implementation of the Differentiable Trajectory Reweighting (DiffTRe) 
-method as implemented in the paper "Learning neural network potentials from 
-experimental data via Differentiable Trajectory Reweighting".
+method as implemented in the paper [Learning neural network potentials from 
+experimental data via Differentiable Trajectory Reweighting](https://www.nature.com/articles/s41467-021-27241-4).
 
 <p align="center">
 <img src="https://drive.google.com/uc?export=view&id=1cWD0uKHZ4TnqfrC0DH5feFf7d3gPhsrI">
@@ -37,11 +37,27 @@ The repository uses the following packages:
     dm-haiku>=0.0.4
     sympy>=1.5
 ```
-The code was tested with Python 3.6. The exact versions used in the paper 
-are listed in ([requirements.txt](requirements.txt)). MDAnalysis is only used for loading of 
+The code was run with Python 3.6. The exact versions used in the paper 
+are listed in [requirements.txt](requirements.txt). MDAnalysis is only used for loading of 
 initial MD states and can be omitted in case of installation issues.
 
 ## Contact
 
 For questions, please contact stephan.thaler@tum.de.
+
+## Citation
+Please cite our paper if you use DiffTRe, the trained models or this code in 
+your own work:
+```
+@article{thaler_difftre_2021,
+  title = {Learning neural network potentials from experimental data via Differentiable Trajectory Reweighting},
+  author = {Thaler, Stephan and Zavadlav, Julija},
+  journal={Nature Communications},
+  volume={12},
+  number={1},
+  pages={6884--6884},
+  doi={10.1038/s41467-021-27241-4}
+  year = {2021}
+}
+```
 
